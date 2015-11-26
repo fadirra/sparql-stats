@@ -20,6 +20,8 @@ public class NegationStats {
 
 	public static void main(String[] args) {
 		
+//		String datasetFilename = "C:\\Users\\user\\Documents\\Datasets\\usewod2015-dataset\\access.log-20140510";
+		String datasetFilename = "C:\\Users\\user\\Documents\\Datasets\\usewod2015-dataset\\access.log-20140505";
 		long lineNum = 0;
 		long numOfNegQueries = 0;
 		long numOfBadQueries = 0; // malformed queries, POST queries, URI decoding error, etc
@@ -27,7 +29,7 @@ public class NegationStats {
 		// due to performance reason, negation detection must be done on the fly during query parsing
 		try{
 			// queries from USEWOD datasets
-			File file = new File("C:\\Users\\user\\Documents\\Datasets\\usewod2015-dataset\\access.log-20140510");
+			File file = new File(datasetFilename);
 		    
 			// example queries
 //			File file = new File("test-queries.txt");
