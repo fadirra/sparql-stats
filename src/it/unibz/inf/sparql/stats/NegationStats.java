@@ -7,6 +7,8 @@ import org.openrdf.query.algebra.*;
 import org.openrdf.query.parser.*;
 import org.openrdf.query.parser.sparql.SPARQLParserFactory;
 
+// git push test
+
 // TODO: Resolve [Encountered " "str" "str ""] and [Encountered " "count" "count ""]
 
 /**
